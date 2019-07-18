@@ -12,6 +12,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface NYLNotificationBar : UIView
 
+@property (nonatomic, copy) void(^clickBarBlock)(void);
+
+@property (nonatomic, strong) UIColor *titleColor;
+
+- (void)showWithTitle:(NSString *)title subTitle:(NSString *)subTitle;
+
 @end
 
 NS_ASSUME_NONNULL_END

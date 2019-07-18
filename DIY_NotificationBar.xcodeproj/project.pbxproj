@@ -15,6 +15,8 @@
 		22039F5622E0542700DF5E87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22039F5522E0542700DF5E87 /* main.m */; };
 		22039F6022E0542700DF5E87 /* DIY_NotificationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22039F5F22E0542700DF5E87 /* DIY_NotificationBarTests.m */; };
 		22039F6B22E0542700DF5E87 /* DIY_NotificationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22039F6A22E0542700DF5E87 /* DIY_NotificationBarUITests.m */; };
+		22039F7B22E0546E00DF5E87 /* NYLNotificationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 22039F7A22E0546E00DF5E87 /* NYLNotificationBar.m */; };
+		F265819DEA6C910668BAA09E /* libPods-DIY_NotificationBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E661F37372391CB3D7D59B /* libPods-DIY_NotificationBar.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D706766B2C8B6A73E1BFA45 /* Pods-DIY_NotificationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIY_NotificationBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DIY_NotificationBar/Pods-DIY_NotificationBar.debug.xcconfig"; sourceTree = "<group>"; };
 		22039F4322E0542600DF5E87 /* DIY_NotificationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DIY_NotificationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22039F4622E0542600DF5E87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22039F4722E0542600DF5E87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,10 @@
 		22039F6622E0542700DF5E87 /* DIY_NotificationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DIY_NotificationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22039F6A22E0542700DF5E87 /* DIY_NotificationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIY_NotificationBarUITests.m; sourceTree = "<group>"; };
 		22039F6C22E0542700DF5E87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22039F7922E0546E00DF5E87 /* NYLNotificationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NYLNotificationBar.h; sourceTree = "<group>"; };
+		22039F7A22E0546E00DF5E87 /* NYLNotificationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NYLNotificationBar.m; sourceTree = "<group>"; };
+		C2E661F37372391CB3D7D59B /* libPods-DIY_NotificationBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DIY_NotificationBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B708550315716B51293AC3 /* Pods-DIY_NotificationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DIY_NotificationBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-DIY_NotificationBar/Pods-DIY_NotificationBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F265819DEA6C910668BAA09E /* libPods-DIY_NotificationBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				22039F5E22E0542700DF5E87 /* DIY_NotificationBarTests */,
 				22039F6922E0542700DF5E87 /* DIY_NotificationBarUITests */,
 				22039F4422E0542600DF5E87 /* Products */,
+				F2F82BF4507CA5B906F1C3A0 /* Pods */,
+				A9B3B3C4F7232C2BC4CF4B0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +111,7 @@
 		22039F4522E0542600DF5E87 /* DIY_NotificationBar */ = {
 			isa = PBXGroup;
 			children = (
+				22039F7822E0544100DF5E87 /* NYLNotificationBar */,
 				22039F4622E0542600DF5E87 /* AppDelegate.h */,
 				22039F4722E0542600DF5E87 /* AppDelegate.m */,
 				22039F4922E0542600DF5E87 /* ViewController.h */,
@@ -132,6 +143,32 @@
 			path = DIY_NotificationBarUITests;
 			sourceTree = "<group>";
 		};
+		22039F7822E0544100DF5E87 /* NYLNotificationBar */ = {
+			isa = PBXGroup;
+			children = (
+				22039F7922E0546E00DF5E87 /* NYLNotificationBar.h */,
+				22039F7A22E0546E00DF5E87 /* NYLNotificationBar.m */,
+			);
+			path = NYLNotificationBar;
+			sourceTree = "<group>";
+		};
+		A9B3B3C4F7232C2BC4CF4B0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E661F37372391CB3D7D59B /* libPods-DIY_NotificationBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2F82BF4507CA5B906F1C3A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D706766B2C8B6A73E1BFA45 /* Pods-DIY_NotificationBar.debug.xcconfig */,
+				C3B708550315716B51293AC3 /* Pods-DIY_NotificationBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +176,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22039F6F22E0542700DF5E87 /* Build configuration list for PBXNativeTarget "DIY_NotificationBar" */;
 			buildPhases = (
+				AAE8AC175FDB818F0178512C /* [CP] Check Pods Manifest.lock */,
 				22039F3F22E0542600DF5E87 /* Sources */,
 				22039F4022E0542600DF5E87 /* Frameworks */,
 				22039F4122E0542600DF5E87 /* Resources */,
@@ -257,6 +295,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AAE8AC175FDB818F0178512C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DIY_NotificationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22039F3F22E0542600DF5E87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +323,7 @@
 			files = (
 				22039F4B22E0542600DF5E87 /* ViewController.m in Sources */,
 				22039F5622E0542700DF5E87 /* main.m in Sources */,
+				22039F7B22E0546E00DF5E87 /* NYLNotificationBar.m in Sources */,
 				22039F4822E0542600DF5E87 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +493,13 @@
 		};
 		22039F7022E0542700DF5E87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D706766B2C8B6A73E1BFA45 /* Pods-DIY_NotificationBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DIY_NotificationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +512,13 @@
 		};
 		22039F7122E0542700DF5E87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3B708550315716B51293AC3 /* Pods-DIY_NotificationBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DIY_NotificationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
