@@ -36,7 +36,7 @@
 - (void)actionBtnClick {
     NYLNotificationBar *bar =[[NYLNotificationBar alloc] init];
     bar.backgroundColor = [UIColor blackColor];
-    bar.tintColor = [UIColor whiteColor];
+    bar.titleColor = [UIColor whiteColor];
     _atIndex++;
     [bar showWithTitle:@"这是标题" subTitle:[NSString stringWithFormat:@"这是内容%ld", _atIndex]];
     bar.clickBarBlock = ^{
