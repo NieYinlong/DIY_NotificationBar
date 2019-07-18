@@ -8,7 +8,7 @@
 ```objc
 NYLNotificationBar *bar =[[NYLNotificationBar alloc] init];
 bar.backgroundColor = [UIColor blackColor];
-bar.tintColor = [UIColor whiteColor];
+bar.titleColor = [UIColor whiteColor];
 [bar showWithTitle:@"这是标题" subTitle:@"这是内容"];
 bar.clickBarBlock = ^{
 // 点击通知栏回调
