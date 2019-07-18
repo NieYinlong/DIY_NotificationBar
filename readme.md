@@ -5,7 +5,7 @@
 ![Image](https://github.com/NieYinlong/DIY_NotificationBar/blob/master/DIY_NotificationBar/bar.gif)
 
 # 使用
-```objc
+```Objective-C
 NYLNotificationBar *bar =[[NYLNotificationBar alloc] init];
 bar.backgroundColor = [UIColor blackColor];
 bar.titleColor = [UIColor whiteColor];
